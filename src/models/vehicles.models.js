@@ -1,4 +1,4 @@
-export default (sequelize, Sequelize, DataTypes) => {
+module.exports =  (sequelize, Sequelize, DataTypes) => {
 	const Vehicles = sequelize.define("vehicles", {
     id: {   type: DataTypes.UUID,
       			defaultValue: Sequelize.UUIDV4,

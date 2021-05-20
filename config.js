@@ -1,5 +1,5 @@
 module.exports = {
-    bd:{
+    db:{
       DB_HOST: "retotecnico-db.c3u6mpp5jo4b.us-east-1.rds.amazonaws.com",
       DB_USER: "admin",
       DB_PASS: "phoijox2021",

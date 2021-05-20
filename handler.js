@@ -2,8 +2,9 @@
 const serverless = require('serverless-http');
 const express = require('express');
 const bodyParser = require('body-parser');
-import swaggerui from 'swagger-ui-express'
-import swagegerJsDoc from 'swagger-jsdoc'
+const swaggerui = require('swagger-ui-express');
+const swagegerJsDoc = require('swagger-jsdoc');
+
 
 const cors = require("cors");
 const dbConfig = require("./config");

@@ -1,6 +1,5 @@
 const config = require("../../config.js");
-const jwt = require("jsonwebtoken");
-const bcrypt = require("bcryptjs");
+
 const db = require("../models");
 const vehicles = db.vehicles;
 const translate = require('translate-api');
