@@ -16,12 +16,11 @@
     "isomorphic-fetch": "^3.0.0",
     "mysql2": "^2.2.5",
     "sequelize": "^6.6.2",
+    "serverless-offline": "^3.25.11",
     "serverless-http": "^2.7.0",
     "swagger-jsdoc": "^6.0.1",
     "swagger-ui-express": "^4.1.6",
     "translate-api": "^0.3.18"
-  },
-  "devDependencies": {
-    "serverless-offline": "^3.25.11"
+
   }
 }
